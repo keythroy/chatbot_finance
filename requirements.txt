@@ -1,0 +1,11 @@
+ipykernel==6.29.3
+openai==1.25.2
+python-dotenv==1.0.1
+yfinance==0.2.37
+pandas==2.2.1
+matplotlib==3.8.3
+pillow==10.2.0
+PyAudio==0.2.14
+SpeechRecognition==3.10.1
+sounddevice==0.4.6
+playsound==1.2.2
