@@ -18,7 +18,7 @@ async def custom_error_handler(e):
     """
     Handler for custom exceptions.
     """
-    logger.error(f"Custom error: {e.message}")
+    logger.log_error(f"Custom error: {e.message}")
     return JSONResponse(
         status_code=e.status_code,
         content={"error": e.message},

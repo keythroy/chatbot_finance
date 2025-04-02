@@ -1,4 +1,4 @@
-env_chatbot_finance/
+chat/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

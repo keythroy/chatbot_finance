@@ -8,7 +8,7 @@ import yfinance as yf
 class YahooFinanceService:
 
     def __init__(self):
-        logger.info('# Started YahooFinanceService')
+        logger.info('Started YahooFinanceService')
         
     def get_stock_price(self, stock_symbol: str):
         logger.info(f'# Getting stock price for {stock_symbol}')

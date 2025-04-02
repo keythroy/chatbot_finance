@@ -5,7 +5,7 @@ from datetime import datetime
 # Configuração do logger
 logging.basicConfig(
     level=logging.INFO,
-    format='%(levelname)s - %(message)s - %(asctime)s ',
+    format='%(levelname)s - # %(message)s - %(asctime)s ',
     handlers=[
         logging.FileHandler(os.path.join('app','logs', 'app.log')),
         logging.StreamHandler()
@@ -28,3 +28,7 @@ def log_debug(message):
 
 def log_critical(message):
     logger.critical(message)
+
+def clean():
+    with open('app/logs/app.log', 'w') as f:
+        f.write('')

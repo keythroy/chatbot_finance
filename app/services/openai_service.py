@@ -10,7 +10,7 @@ class OpenAIService:
 
     def __init__(self):
         self.client = openai.Client()
-        logger.info('# Started OpenAIService')
+        logger.info('Started OpenAIService')
         self.model = 'gpt-3.5-turbo-0125'
         self.tools = [
             {
